@@ -46,7 +46,7 @@ const  todo  = client.readQuery({
   query: READ_TODO, 
 });
 
-console.log("logo",todo,client);
+
   };
   return (
     <div>
@@ -63,6 +63,27 @@ console.log("logo",todo,client);
         placeholder="Email"
         onChange={(e) => {
           setEmail(e.target.value);
+        }}
+      />
+      <input
+        type="text"
+        placeholder="Password"
+        onChange={(e) => {
+          setPassword(e.target.value);
+        }}
+      />
+      <input
+        type="text"
+        placeholder="Password"
+        onChange={(e) => {
+          setPassword(e.target.value);
+        }}
+      />
+      <input
+        type="text"
+        placeholder="Password"
+        onChange={(e) => {
+          setPassword(e.target.value);
         }}
       />
       <input
